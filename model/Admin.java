@@ -33,20 +33,13 @@ public class Admin {
 	public String toString() {
 		return "Admin [email=" + email + "]";
 	}
-
-	public ArrayList<Anime> getWatchAni() {
-		return Admin.watchAni;
-	}
-
+	
 	public void addWatchAni(Anime ani) {
 		Admin.watchAni.add(ani);
 	}
 
-	/**
-	 * @param watchAni
-	 *            the watchAni to set
-	 */
-	public void setWatchAni(ArrayList<Anime> watchAni) {
-		Admin.watchAni = watchAni;
+	public static ArrayList<Anime> getWatchAni() {
+		return Admin.watchAni;
 	}
+
 }

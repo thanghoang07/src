@@ -27,7 +27,10 @@ public class DAO1 {
 					"Toei Animation", 04));
 			DAO1.listAnime.add(new Anime("One piece",
 					"http://anhnendep.net/wp-content/uploads/2015/07/hinh-nen-iphone-6-one-piece-tuyet-dep.png",
-					"Toei Animation", 04));
+					"Toei Animation", 05));
+			DAO1.listAnime.add(new Anime("Naruto shippuuden",
+					"",
+					"Toei Animation", 06));
 		}
 		return DAO1.listAnime;
 	}
