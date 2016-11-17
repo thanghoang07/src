@@ -38,7 +38,7 @@ public class Admin {
 		Admin.watchAni.add(ani);
 	}
 
-	public static ArrayList<Anime> getWatchAni() {
+	public ArrayList<Anime> getWatchAni() {
 		return Admin.watchAni;
 	}
 
